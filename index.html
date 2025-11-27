@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange Juice - Fresh & Natural</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: rgba(255, 165, 0, 0.9);
+        }
+        .hero-section {
+            background-color: rgb(255, 248, 240);
+            padding: 80px 0;
+        }
+        .card {
+            transition: transform 0.3s;
+            border: none;
+            background-color: transparent;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .btn-warning {
+            background-color: orange;
+            border: none;
+        }
+        .btn-warning:hover {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Orange Juice Co.</a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold text-warning mb-4">Fresh Squeezed Goodness</h1>
+                    <p class="lead mb-4">Experience the pure taste of nature with our premium orange juice. Made from hand-picked oranges, delivering the perfect balance of sweetness and refreshment.</p>
+                    <a href="#products" class="btn btn-warning btn-lg">Explore Our Products</a>
+                </div>
+                <div class="col-lg-6"><br>
+                    <img src=" https://images.pexels.com/photos/68899/pexels-photo-68899.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fresh Orange Juice" class="img-fluid rounded-3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5" id="about">
+        <div class="container text-center">
+            <h2 class="display-5 fw-bold text-warning mb-4">Why Choose Us?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/327098/pexels-photo-327098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Natural">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">100% Natural</h5>
+                            <p class="card-text">No additives or preservatives, just pure orange goodness.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/207085/pexels-photo-207085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Fresh">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">Daily Fresh</h5>
+                            <p class="card-text">Squeezed fresh every day for maximum taste and nutrition.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/161559/background-bitter-breakfast-bright-161559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Healthy">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">Health Benefits</h5>
+                            <p class="card-text">Rich in Vitamin C and antioxidants for your wellbeing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-5 bg-light" id="products">
+        <div class="container text-center">
+            <h2 class="display-5 fw-bold text-warning mb-4">Our Products</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/158053/fresh-orange-juice-squeezed-refreshing-citrus-158053.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Classic Orange Juice">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">Classic Orange</h5>
+                            <p class="card-text">Our signature fresh-squeezed orange juice.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/51958/oranges-fruit-vitamins-healthy-eating-51958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Natural">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">100% Natural</h5>
+                            <p class="card-text">No additives or preservatives, just pure orange goodness.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/918643/pexels-photo-918643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Fresh">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">Daily Fresh</h5>
+                            <p class="card-text">Squeezed fresh every day for maximum taste and nutrition.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/1435735/pexels-photo-1435735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Healthy">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">Health Benefits</h5>
+                            <p class="card-text">Rich in Vitamin C and antioxidants for your wellbeing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-5" id="services">
+        <div class="container text-center">
+            <h2 class="display-5 fw-bold text-warning mb-4">Professional Services</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Bulk Orders">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">Bulk Orders</h5>
+                            <p class="card-text">Large-scale juice supply for businesses and organizations with customizable delivery schedules.</p>
+                            <a href="#contact" class="btn btn-warning">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Corporate Partnerships">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">Corporate Partnerships</h5>
+                            <p class="card-text">Exclusive supply agreements and branded juice solutions for corporate clients.</p>
+                            <a href="#contact" class="btn btn-warning">Partner With Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Event Catering">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">Event Catering</h5>
+                            <p class="card-text">Professional juice bars and service staff for corporate events and celebrations.</p>
+                            <a href="#contact" class="btn btn-warning">Book Event</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Custom Blends">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">Custom Blends</h5>
+                            <p class="card-text">Tailored juice formulations to meet specific nutritional requirements and taste preferences.</p>
+                            <a href="#contact" class="btn btn-warning">Customize Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="display-5 fw-bold text-warning mb-4">Contact Us</h2>
+                    <p class="lead mb-5">Have questions? We'd love to hear from you!</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning btn-lg w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-warning py-4">
+        <div class="container text-center">
+            <p class="mb-0">© 2024 Orange Juice Co. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
